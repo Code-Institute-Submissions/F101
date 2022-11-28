@@ -10,7 +10,35 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>F101</title></head>
+
 <body>
-    
+    <header class="red_background white_text" >
+        <h1>F101</h1>
+    </header>
+
+    <nav>
+        <a href="index.html" aria-label="Go to Home page">Home</a>
+        <a href="records.html" aria-label="Go to Records page">Records</a>
+        <a class="active" href="signup.html" aria-label="Go to Sign-up page">Sign Up</a>
+    </nav>
+    <section>
+        <form method="POST" action="https://formdump.codeinstitute.net/" >
+            <h2>Sign Up For More F1 News!</h2>
+        <div>
+            <label for="fname">First Name:</label>
+            <input id="fname" name="first_name" type="text" required>
+        </div>
+        <div>
+            <label for="lname">Last Name:</label>
+            <input id="lname" name="last_name" type="text" required>
+        </div>
+        <div>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+        </div>
+        <input type="submit" class="block-label" value="Confirm">
+
+    </section>
+
 </body>
 </html>
